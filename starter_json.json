@@ -1,0 +1,42 @@
+{
+  "comments" : {
+    "_000at5uib" : {
+      "comment" : " ",
+      "commentBy" : "Anonymous",
+      "email" : "",
+      "featured" : false,
+      "hidden" : true,
+      "live" : false,
+      "neighboorhood" : "Choose One...",
+      "submittedOn" : "2020-09-21T19:51:44.750Z",
+      "type" : "idea",
+      "upvote" : 0,
+      "visit" : false,
+      "work" : true
+	  }
+    
+  },
+  "points" : {
+    "_000at5uib" : {
+      "hidden" : true,
+      "lat" : -81.64956559191108,
+      "lng" : 41.5022698979042,
+      "type" : "idea"
+    }
+  },
+  "replies" : {
+    "_000at5uib" : {
+      "_ea3w0ii6i" : {
+        "comment" : "Test",
+        "commentBy" : "Anonymous",
+        "hidden" : false,
+        "live" : false,
+        "neighboorhood" : "",
+        "submittedOn" : "2020-08-10T00:43:32.429Z",
+        "upvote" : 0,
+        "visit" : true,
+        "work" : false
+      }
+    }
+  }
+}
