@@ -12,7 +12,7 @@ const Draw = () => {
 
     // Hacky stuff below
     var smallClimateBlue = new L.Icon({
-        iconUrl: "./icons/Connections.jpg",
+        iconUrl: "./icons/Connections.png",
         iconSize: [75, 75],
         iconAnchor: [38, 28],
     });
