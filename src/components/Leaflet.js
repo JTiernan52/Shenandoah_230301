@@ -116,15 +116,13 @@ function Leaflet(props) {
         // setReplies({ ...data.replies });
     }, [firebase]);
 
-    //const mapboxSat =
-    //    "https://api.mapbox.com/styles/v1/interfacestudio/ckke4pj2z0njj17o5nwco65f5/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaW50ZXJmYWNlc3R1ZGlvIiwiYSI6ImNqeDNiank1djA4ZGE0OXJ3Nmw5dTEyNWgifQ.YIDGNNi8jg51LdgBOFCkbA";
-
     const mapboxSat =
-          mapboxURL;
+        "https://api.mapbox.com/styles/v1/landaudesign/cla7aexpo000x14qv2ikoqduz/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
+
     
     //satellite data
     const Basemap =
-          "https://api.mapbox.com/styles/v1/landaudesign/ckp77s8iq50q518nuadzoh59x/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
+          "https://api.mapbox.com/styles/v1/landaudesign/cla7aexpo000x14qv2ikoqduz/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
 
     delete L.Icon.Default.prototype._getIconUrl;
 
