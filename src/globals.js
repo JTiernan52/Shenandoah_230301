@@ -19,7 +19,7 @@ export const iconTypes = ["climate", "accessibility", "vibrancy", "community", "
 
 //mapbox
 export const mapboxURL =
-    "https://api.mapbox.com/styles/v1/landaudesign/cla7aexpo000x14qv2ikoqduz/wmts?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
+    "https://api.mapbox.com/styles/v1/landaudesign/cla7aexpo000x14qv2ikoqduz/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
 
 //icons that are loaded on each user end on first load
 export const icons = {
