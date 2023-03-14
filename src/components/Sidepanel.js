@@ -72,7 +72,7 @@ function Sidepanel(props) {
                                 <b>Clima:</b> Usa el{" "}
                                 <img
                                     className="inTextIcon climate"
-                                    src="/icons/tool_add_climate.png"
+                                    src="/icons/Add Connection.png"
                                     alt=""
                                 />{" "}
                                 para proponer ideas sobre el clima local.
