@@ -1,16 +1,16 @@
 import * as L from "leaflet";
 
 //Firebase settings
+//Node version 16.16.0
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyDIcdQcyKwLlK2UzWIypC33t8ZmiKrk1Fo",
-    authDomain: "pidc-industrial.firebaseapp.com",
-    databaseURL: "https://pidc-industrial-default-rtdb.firebaseio.com",
-    projectId: "pidc-industrial",
-    storageBucket: "pidc-industrial.appspot.com",
-    messagingSenderId: "796240446853",
-    appId: "1:796240446853:web:b7786caa198b13a784b0ec",
-    measurementId: "G-225L34R2W7",
+  apiKey: "AIzaSyDwadcmkbLR_mQ6TzKXWkX7nhw5DD6Ew38",
+  authDomain: "shenandoah-230301.firebaseapp.com",
+  databaseURL: "https://shenandoah-230301-default-rtdb.firebaseio.com",
+  projectId: "shenandoah-230301",
+  storageBucket: "shenandoah-230301.appspot.com",
+  messagingSenderId: "802386923566",
+  appId: "1:802386923566:web:6b4309c95816f7f0234fbf"
 };
 
 //icons
@@ -19,7 +19,7 @@ export const iconTypes = ["climate", "accessibility", "vibrancy", "community", "
 
 //mapbox
 export const mapboxURL =
-    "https://api.mapbox.com/styles/v1/landaudesign/ckp7lnszs5e9g18nuzy69f1ea/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
+    "https://api.mapbox.com/styles/v1/landaudesign/cla7aexpo000x14qv2ikoqduz/wmts?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
 
 //icons that are loaded on each user end on first load
 export const icons = {
