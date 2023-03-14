@@ -124,7 +124,7 @@ function Leaflet(props) {
     
     //satellite data
     const Basemap =
-          "https://api.mapbox.com/styles/v1/landaudesign/cla7aexpo000x14qv2ikoqduz/wmts?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
+          "https://api.mapbox.com/styles/v1/landaudesign/ckp77s8iq50q518nuadzoh59x/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g";
 
     delete L.Icon.Default.prototype._getIconUrl;
 
