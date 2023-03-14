@@ -12,22 +12,22 @@ const Draw = () => {
 
     // Hacky stuff below
     var smallClimateBlue = new L.Icon({
-        iconUrl: "./icons/climate_user.png",
+        iconUrl: "./icons/Connections-01.jpg",
         iconSize: [75, 75],
         iconAnchor: [38, 28],
     });
     var smallAccessibilityBlue = new L.Icon({
-        iconUrl: "./icons/equity_user.png",
+        iconUrl: "./icons/General Ideas-01.jpg",
         iconSize: [75, 75],
         iconAnchor: [38, 22],
     });
     var smallVibrancyBlue = new L.Icon({
-        iconUrl: "./icons/vibrancy_user.png",
+        iconUrl: "./icons/Potential Issues-01.jpg",
         iconSize: [75, 75],
         iconAnchor: [38, 25],
     });
     var smallCommunityBlue = new L.Icon({
-        iconUrl: "./icons/community_user.png",
+        iconUrl: "./icons/Special Places-01.jpg",
         iconSize: [75, 75],
         iconAnchor: [38, 25],
     });
