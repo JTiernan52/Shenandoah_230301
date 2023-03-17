@@ -161,45 +161,45 @@ function Sidepanel(props) {
                         </p>
                         <p>
                         </p>
-                        <h4>Welcome to the second community map for the Medford Comprehensive Plan!</h4>
+                        <h4>Welcome to the community map for the Shenandoah Rail Trail!</h4>
                         <p>
-                        After receiving your feedback from the first community map, we had a series of meetings to discuss our analysis of your comments and suggestions. We identified <b>5 key themes</b> in your feedback and now we want to hear from you again!
+                        This is a space for you to share your thoughts, ideas, and concerns surrounding the planned Shenandoah Rail Trail. We identified <b>4 key themes</b> and now we want to hear from you again!
                         </p>
                         <p>
-                        Use the map to identify places in and around Medford that are important to you. Click to pick up an icon of one of the 5 key themes related to your comment from the sidebar menu. Click again to pin your icon on the map where it belongs and share your thoughts with us.
+                        Use the map to identify places in and around the Rail Trail that are important to you. Click to pick up an icon of one of the 4 key themes related to your comment from the sidebar menu. Click again to pin your icon on the map where it belongs and share your thoughts with us.
                         </p>
 
 
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/climate.png" alt="" />
+                            <img className="textIcon" src="/icons/Special Places-01.png" alt="" />
                             <p>
-                                <b>Climate:</b> Use the{" "}
+                                <b>Special Places:</b> Use the{" "}
                                 <img
                                     className="inTextIcon climate"
-                                    src="/icons/tool_add_climate.png"
+                                    src="/icons/Add Special Places-01.png"
                                     alt=""
                                 />{" "}
-                                to propose local climate ideas.
+                                to indentify places special to you.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/equity.png" alt="" />
+                            <img className="textIcon" src="/icons/Connections-01.png" alt="" />
                             <p>
                                 <b>Accessibility:</b> Use the {" "}<img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_equity.png"
+                                    src="/icons/Add Connections-01.png"
                                     alt=""
                                 />{" "}
-                                to identify ways to make Medford more equitable.
+                                to identify possible connections to and from the Rail Trail.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/vibrancy.png" alt="" />
+                            <img className="textIcon" src="/icons/General Ideas-01.png" alt="" />
                             <p>
                                 <b>Vibrancy:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_vibrancy.png"
+                                    src="/icons/Add General Ideas-01.png"
                                     alt=""
                                 />{" "}
                                 to identify ways to make Medford more vibrant.

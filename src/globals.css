@@ -14,7 +14,7 @@
 
 /* Toolbar icons */
 .leaflet-draw-draw-marker:nth-of-type(1) {
-    background-image: url("/icons/Add Connections-01.png") !important;
+    background-image: url("/icons/Add Special Places-01.png") !important;
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 0 0 !important;
@@ -23,7 +23,7 @@
 }
 
 .leaflet-draw-draw-marker:nth-of-type(2) {
-    background-image: url("/icons/Add Special Places-01.png") !important;
+    background-image: url("/icons/Add Connections-01.png") !important;
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 0 0 !important;
