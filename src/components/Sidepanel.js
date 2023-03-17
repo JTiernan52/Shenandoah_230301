@@ -67,7 +67,7 @@ function Sidepanel(props) {
 
 
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/Special Places-01.png" alt="" />
+                        <img className="textIcon" src="/icons/climate.png" alt="" />
                             <p>
                                 <b>Clima:</b> Usa el{" "}
                                 <img

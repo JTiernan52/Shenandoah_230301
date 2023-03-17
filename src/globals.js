@@ -15,7 +15,7 @@ export const firebaseConfig = {
 
 //icons
 
-export const iconTypes = ["climate", "accessibility", "vibrancy", "community", "engagement", "helloWorld"]
+export const iconTypes = ["Special_Places", "Connections", "General_Ideas", "Potential_Issues", "engagement", "helloWorld"]
 
 //mapbox
 export const mapboxURL =
@@ -23,32 +23,32 @@ export const mapboxURL =
 
 //icons that are loaded on each user end on first load
 export const icons = {
-    climate: L.Icon.extend({
+    Special_Places: L.Icon.extend({
         options: {
             iconUrl:
-            "./icons/Connections-01.png",
+            "./icons/Special Places-01.png",
             iconAnchor: new L.Point(38, 18),
             iconSize: new L.Point(76, 76),
         },
     }),
 
-    accessibility: L.Icon.extend({
+    Connections: L.Icon.extend({
         options: {
-            iconUrl: "./icons/equity.png",
+            iconUrl: "./icons/Connections-01.png",
             iconAnchor: new L.Point(38, 18),
             iconSize: new L.Point(75, 75),
         },
     }),
-    vibrancy: L.Icon.extend({
+    General_Ideas: L.Icon.extend({
         options: {
-            iconUrl: "./icons/vibrancy.png",
+            iconUrl: "./icons/General Ideas-01.png",
             iconAnchor: new L.Point(38, 22),
             iconSize: new L.Point(75, 75),
         },
     }),
-    community: L.Icon.extend({
+    Potential_Issues: L.Icon.extend({
         options: {
-            iconUrl: "./icons/community.png",
+            iconUrl: "./icons/Potential Issues-01.png",
             iconAnchor: new L.Point(38, 22),
             iconSize: new L.Point(75, 75),
         },
