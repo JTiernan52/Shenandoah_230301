@@ -202,20 +202,20 @@ function Sidepanel(props) {
                                     src="/icons/Add General Ideas-01.png"
                                     alt=""
                                 />{" "}
-                                to identify ways to make Medford more vibrant.
+                                to identify general ideas to improve the Rail Trail.
                             </p>
                         </div>
                         
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/community.png" alt="" />
+                            <img className="textIcon" src="/icons/Potential Issues-01.png" alt="" />
                             <p>
                                 <b>Community:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_community.png"
+                                    src="/icons/Add Potential Issues-01.png"
                                     alt=""
                                 />{" "}
-                                to identify ways to support Medford's community.
+                                to identify potential issues with the current Rail Trail plan.
                             </p>
                         </div>
                         
@@ -237,7 +237,7 @@ function Sidepanel(props) {
                         When you click “Post” your icon and comment will be added to the map. You can change your comments until you close the map. Please be respectful, as everyone can see the comments you share.
                         </p>
                         <p>
-                        Most importantly, please share this map with family and friends who care about Medford!
+                        Most importantly, please share this map with family and friends who care about the Shenandoah Rail Trail!
                         </p>
                         <p>
                             <i>If the map is difficult to use or incompatible with your screen reader, please leave a message at <a href="tel:781-393-2480">781-393-2480</a>, and a member of our planning team will contact you.</i>
