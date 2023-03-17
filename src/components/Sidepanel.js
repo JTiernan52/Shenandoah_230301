@@ -67,35 +67,35 @@ function Sidepanel(props) {
 
 
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/Connections.png" alt="" />
+                            <img className="textIcon" src="/icons/Special Places-01.png" alt="" />
                             <p>
                                 <b>Clima:</b> Usa el{" "}
                                 <img
                                     className="inTextIcon climate"
-                                    src="/icons/Add Connection.png"
+                                    src="/icons/Add Special Places-01.png"
                                     alt=""
                                 />{" "}
                                 para proponer ideas sobre el clima local.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/equity.png" alt="" />
+                            <img className="textIcon" src="/icons/Connections-01.png" alt="" />
                             <p>
                                 <b>Accesibilidad:</b> Use {" "}<img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_equity.png"
+                                    src="/icons/Add Connections-01.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de hacer que Medford sea más equitativo.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/vibrancy.png" alt="" />
+                            <img className="textIcon" src="/icons/General Ideas-01.png" alt="" />
                             <p>
                                 <b>Vibrancia:</b> Use {" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_vibrancy.png"
+                                    src="/icons/Add General Ideas-01.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de hacer que Medford sea más vibrante.
@@ -103,12 +103,12 @@ function Sidepanel(props) {
                         </div>
                         
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/community.png" alt="" />
+                            <img className="textIcon" src="/icons/Potential Issues-01.png" alt="" />
                             <p>
                                 <b>Comunidad:</b> Use {" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_community.png"
+                                    src="/icons/Add Potential Issues-01.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de apoyar a la comunidad de Medford.
@@ -314,7 +314,7 @@ function Sidepanel(props) {
                         <p>
                             <b>
                                 <a
-                                    target="_blank"
+                                    target="blank"
                                     href="https://www.medfordcompplan.org/"
                                 >
                                     www.medfordcompplan.org 
@@ -349,7 +349,7 @@ function Sidepanel(props) {
                         <p>
                             <b>
                                 <a
-                                    target="_blank"
+                                    target="blank"
                                     href="https://www.medfordcompplan.org/"
                                 >
                                     www.medfordcompplan.org
