@@ -314,7 +314,7 @@ function Sidepanel(props) {
                         <p>
                             <b>
                                 <a
-                                    target="blank"
+                                    target="_blank"
                                     href="https://www.medfordcompplan.org/"
                                 >
                                     www.medfordcompplan.org 
@@ -349,7 +349,7 @@ function Sidepanel(props) {
                         <p>
                             <b>
                                 <a
-                                    target="blank"
+                                    target="_blank"
                                     href="https://www.medfordcompplan.org/"
                                 >
                                     www.medfordcompplan.org
