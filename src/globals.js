@@ -26,7 +26,7 @@ export const icons = {
     climate: L.Icon.extend({
         options: {
             iconUrl:
-                "https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg",
+            "./icons/Connections-01.png",
             iconAnchor: new L.Point(38, 18),
             iconSize: new L.Point(76, 76),
         },
