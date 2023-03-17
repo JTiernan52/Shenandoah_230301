@@ -14,7 +14,7 @@
 
 /* Toolbar icons */
 .leaflet-draw-draw-marker:nth-of-type(1) {
-    background-image: url("/icons/tool_add_climate.png") !important;
+    background-image: url("/icons/Add Connections-01.png") !important;
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 0 0 !important;
@@ -23,7 +23,7 @@
 }
 
 .leaflet-draw-draw-marker:nth-of-type(2) {
-    background-image: url("/icons/tool_add_equity.png") !important;
+    background-image: url("/icons/Add Special Places-01.png") !important;
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 0 0 !important;
@@ -32,7 +32,7 @@
 }
 
 .leaflet-draw-draw-marker:nth-of-type(3) {
-    background-image: url("/icons/tool_add_vibrancy.png") !important;
+    background-image: url("/icons/Add General Ideas-01.png") !important;
     background-repeat: no-repeat;
     background-size: 30px 30px !important;
     background-position: 0 0 !important;
@@ -41,7 +41,7 @@
 }
 
 .leaflet-draw-draw-marker:nth-of-type(4) {
-    background-image: url("/icons/tool_add_community.png") !important;
+    background-image: url("/icons/Add Potential Issues-01.png") !important;
     background-repeat: no-repeat;
     background-size: 30px 30px !important;
     background-position: 0 0 !important;
