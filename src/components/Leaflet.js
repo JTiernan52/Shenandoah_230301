@@ -30,7 +30,7 @@ function Leaflet(props) {
     const user = props.user;
     const admin = props.admin;
     const icons = getIcons();
-    const position = [42.424930, -71.128840];
+    const position = [38.702,-78.564];
     const mapStyle = { height: "100vh" };
     const [map, setMap] = useState({});
     const [points, setPoints] = useState({});
