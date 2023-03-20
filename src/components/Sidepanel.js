@@ -115,17 +115,7 @@ function Sidepanel(props) {
                             </p>
                         </div>
                         
-                        <div className="infoType">
-                            <img className="textIcon" src="/icons/transparency.png" alt="" />
-                            <p>
-                                <b>Compromiso:</b> identifique las formas en que la ciudad puede comunicarse e involucrar al público utilizando {" "}
-                                <img
-                                    className="inTextIcon"
-                                    src="/icons/tool_add_transparency.png"
-                                    alt=""
-                                />{" "}
-                            </p>
-                        </div>
+
                         <p>
                         Cada vez que coloque un pin, agregue un comentario para compartir lo que está pensando. Puedes agregar tantos pines como quieras.
                         </p>
@@ -219,17 +209,7 @@ function Sidepanel(props) {
                             </p>
                         </div>
                         
-                        <div className="infoType">
-                            <img className="textIcon" src="/icons/transparency.png" alt="" />
-                            <p>
-                                <b>Engagement:</b> Identify ways the city can communicate with and engage the public using {" "}
-                                <img
-                                    className="inTextIcon"
-                                    src="/icons/tool_add_transparency.png"
-                                    alt=""
-                                />{" "}
-                            </p>
-                        </div>
+
                         <p>
                         Each time you place a pin, add a comment to share what you are thinking. You can add as many pins as you want.
                         </p>

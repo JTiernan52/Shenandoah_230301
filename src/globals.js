@@ -15,7 +15,7 @@ export const firebaseConfig = {
 
 //icons
 
-export const iconTypes = ["special_places", "connections", "general_ideas", "potential_issues", "engagement", "helloWorld"]
+export const iconTypes = ["special_places", "connections", "general_ideas", "potential_issues", "engagement"]
 
 //mapbox
 export const mapboxURL =

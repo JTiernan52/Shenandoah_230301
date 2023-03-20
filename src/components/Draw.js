@@ -30,17 +30,6 @@ const Draw = () => {
         iconUrl: "./icons/potential_issues.png",
         iconSize: [75, 75],
         iconAnchor: [38, 25],
-    });
-    var smallEngagementBlue = new L.Icon({
-        iconUrl: "./icons/transparency_user.png",
-        iconSize: [75, 75],
-        iconAnchor: [38, 25],
-    });
-
-    var helloWorld = new L.Icon({
-        iconUrl: "./icons/helloWorld.png",
-        iconSize: [75, 75],
-        iconAnchor: [38, 25]
     })
 
     L.DrawToolbar.include({
@@ -50,32 +39,22 @@ const Draw = () => {
                     
                     enabled: true,
                     handler: new L.Draw.Marker(map, { icon: smallClimateBlue }),
-                    title: "Add Climate Action",
+                    title: "Add a Special Place",
                 },
                 {
                     enabled: true,
                     handler: new L.Draw.Marker(map, { icon: smallAccessibilityBlue }),
-                    title: "Add Accessibility Action",
+                    title: "Add a Potential Connection",
                 },
                 {
                     enabled: true,
                     handler: new L.Draw.Marker(map, { icon: smallVibrancyBlue }),
-                    title: "Add Vibrancy Action",
+                    title: "Add a General Idea",
                 },
                 {
                     enabled: true,
                     handler: new L.Draw.Marker(map, { icon: smallCommunityBlue }),
-                    title: "Add Community Action",
-                },
-                {
-                    enabled: true,
-                    handler: new L.Draw.Marker(map, { icon: smallEngagementBlue }),
-                    title: "Add Engagement Action",
-                },
-                {
-                    enabled: true,
-                    handler: new L.Draw.Marker(map, { icon: helloWorld }),
-                    title: "Add Hello World"
+                    title: "Add a Potential Issue",
                 }
             ];
         },
@@ -83,7 +62,7 @@ const Draw = () => {
 
     L.drawLocal.draw.toolbar.buttons.marker = "Add a comment";
     L.drawLocal.draw.handlers.marker.tooltip.start =
-        "Click map to pin an Action item";
+        "Click map to pin an item";
     L.drawLocal.edit.toolbar.actions.save.text = "Save Changes";
     L.drawLocal.edit.toolbar.actions.cancel.text = "Undo";
     L.drawLocal.edit.handlers.remove.tooltip.text =
