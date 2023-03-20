@@ -178,7 +178,7 @@ function Sidepanel(props) {
                         <div className="infoType">
                             <img className="textIcon" src="/icons/connections.png" alt="" />
                             <p>
-                                <b>Accessibility:</b> Use the {" "}<img
+                                <b>Connections:</b> Use the {" "}<img
                                     className="inTextIcon"
                                     src="/icons/tool_add_connections.png"
                                     alt=""
@@ -189,7 +189,7 @@ function Sidepanel(props) {
                         <div className="infoType">
                             <img className="textIcon" src="/icons/general_ideas.png" alt="" />
                             <p>
-                                <b>Vibrancy:</b> Use the{" "}
+                                <b>General Ideas:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
                                     src="/icons/tool_add_general_ideas.png"
@@ -202,7 +202,7 @@ function Sidepanel(props) {
                         <div className="infoType">
                             <img className="textIcon" src="/icons/potential_issues.png" alt="" />
                             <p>
-                                <b>Community:</b> Use the{" "}
+                                <b>Potential Issues:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
                                     src="/icons/tool_add_potential_issues.png"
@@ -263,7 +263,7 @@ function Sidepanel(props) {
                         <img
                             className="Logo"
                             alt="Medford_gif"
-                            src="/icons/stickers.gif"
+                            src="/icons/ShenandoahAlliance_Logo.png"
                             width="300"
                             class="center"
                         />
