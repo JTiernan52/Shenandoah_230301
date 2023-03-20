@@ -67,35 +67,35 @@ function Sidepanel(props) {
 
 
                         <div className="infoType">
-                        <img className="textIcon" src="/icons/climate.png" alt="" />
+                        <img className="textIcon" src="/icons/special_places.png" alt="" />
                             <p>
                                 <b>Clima:</b> Usa el{" "}
                                 <img
                                     className="inTextIcon climate"
-                                    src="/icons/Add Special Places-01.png"
+                                    src="/icons/tool_add_special_places.png"
                                     alt=""
                                 />{" "}
                                 para proponer ideas sobre el clima local.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/Connections-01.png" alt="" />
+                            <img className="textIcon" src="/icons/connections.png" alt="" />
                             <p>
                                 <b>Accesibilidad:</b> Use {" "}<img
                                     className="inTextIcon"
-                                    src="/icons/Add Connections-01.png"
+                                    src="/icons/tool_add_connections.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de hacer que Medford sea más equitativo.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/General Ideas-01.png" alt="" />
+                            <img className="textIcon" src="/icons/general_ideas.png" alt="" />
                             <p>
                                 <b>Vibrancia:</b> Use {" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/Add General Ideas-01.png"
+                                    src="/icons/tool_add_general_ideas.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de hacer que Medford sea más vibrante.
@@ -103,12 +103,12 @@ function Sidepanel(props) {
                         </div>
                         
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/Potential Issues-01.png" alt="" />
+                            <img className="textIcon" src="/icons/potential_issues.png" alt="" />
                             <p>
                                 <b>Comunidad:</b> Use {" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/Add Potential Issues-01.png"
+                                    src="/icons/tool_add_potential_issues.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de apoyar a la comunidad de Medford.
@@ -171,35 +171,35 @@ function Sidepanel(props) {
 
 
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/Special Places-01.png" alt="" />
+                            <img className="textIcon" src="/icons/special_places.png" alt="" />
                             <p>
                                 <b>Special Places:</b> Use the{" "}
                                 <img
                                     className="inTextIcon climate"
-                                    src="/icons/Add Special Places-01.png"
+                                    src="/icons/tool_add_special_places.png"
                                     alt=""
                                 />{" "}
                                 to indentify places special to you.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/Connections-01.png" alt="" />
+                            <img className="textIcon" src="/icons/connections.png" alt="" />
                             <p>
                                 <b>Accessibility:</b> Use the {" "}<img
                                     className="inTextIcon"
-                                    src="/icons/Add Connections-01.png"
+                                    src="/icons/tool_add_connections.png"
                                     alt=""
                                 />{" "}
                                 to identify possible connections to and from the Rail Trail.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/General Ideas-01.png" alt="" />
+                            <img className="textIcon" src="/icons/general_ideas.png" alt="" />
                             <p>
                                 <b>Vibrancy:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/Add General Ideas-01.png"
+                                    src="/icons/tool_add_general_ideas.png"
                                     alt=""
                                 />{" "}
                                 to identify general ideas to improve the Rail Trail.
@@ -207,12 +207,12 @@ function Sidepanel(props) {
                         </div>
                         
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/Potential Issues-01.png" alt="" />
+                            <img className="textIcon" src="/icons/potential_issues.png" alt="" />
                             <p>
                                 <b>Community:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/Add Potential Issues-01.png"
+                                    src="/icons/tool_add_potential_issues.png"
                                     alt=""
                                 />{" "}
                                 to identify potential issues with the current Rail Trail plan.

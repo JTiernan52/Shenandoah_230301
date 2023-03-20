@@ -15,7 +15,7 @@ export const firebaseConfig = {
 
 //icons
 
-export const iconTypes = ["Special_Places", "Connections", "General_Ideas", "Potential_Issues", "engagement", "helloWorld"]
+export const iconTypes = ["special_places", "connections", "general_ideas", "potential_issues", "engagement", "helloWorld"]
 
 //mapbox
 export const mapboxURL =
@@ -23,32 +23,32 @@ export const mapboxURL =
 
 //icons that are loaded on each user end on first load
 export const icons = {
-    Special_Places: L.Icon.extend({
+    special_places: L.Icon.extend({
         options: {
             iconUrl:
-            "./icons/Special Places-01.png",
+            "./icons/special_places.png",
             iconAnchor: new L.Point(38, 18),
             iconSize: new L.Point(76, 76),
         },
     }),
 
-    Connections: L.Icon.extend({
+    connections: L.Icon.extend({
         options: {
-            iconUrl: "./icons/Connections-01.png",
+            iconUrl: "./icons/connections.png",
             iconAnchor: new L.Point(38, 18),
             iconSize: new L.Point(75, 75),
         },
     }),
-    General_Ideas: L.Icon.extend({
+    general_ideas: L.Icon.extend({
         options: {
-            iconUrl: "./icons/General Ideas-01.png",
+            iconUrl: "./icons/general_ideas.png",
             iconAnchor: new L.Point(38, 22),
             iconSize: new L.Point(75, 75),
         },
     }),
-    Potential_Issues: L.Icon.extend({
+    potential_issues: L.Icon.extend({
         options: {
-            iconUrl: "./icons/Potential Issues-01.png",
+            iconUrl: "./icons/potential_issues.png",
             iconAnchor: new L.Point(38, 22),
             iconSize: new L.Point(75, 75),
         },
