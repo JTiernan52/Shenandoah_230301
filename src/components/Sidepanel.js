@@ -60,58 +60,61 @@ function Sidepanel(props) {
                         <p>
                         <i>traducción a través de Google Translate</i>
                         </p>
-                        <h4>¡Bienvenido al segundo mapa comunitario del Plan integral de Medford!</h4>
+                        <h4>¡Bienvenido al mapa de la comunidad de Shenandoah Rail Trail!</h4>
                         <p>
-                        Después de recibir sus comentarios sobre el primer mapa de la comunidad, tuvimos una serie de reuniones para analizar nuestro análisis de sus comentarios y sugerencias. ¡Identificamos <b>5 temas clave</b> en sus comentarios y ahora queremos saber de usted nuevamente!
+                       
+                        Este es un espacio para que comparta sus pensamientos, ideas e inquietudes sobre el Shenandoah Rail Trail planificado. ¡Identificamos <b>4 temas clave</b> y ahora queremos saber de usted nuevamente!
                         </p>
 
 
                         <div className="infoType">
                         <img className="textIcon" src="/icons/special_places.png" alt="" />
                             <p>
-                                <b>Clima:</b> Usa el{" "}
+                                <b>
+                                Lugares especiales:</b> Usa el{" "}
                                 <img
                                     className="inTextIcon climate"
                                     src="/icons/tool_add_special_places.png"
                                     alt=""
                                 />{" "}
-                                para proponer ideas sobre el clima local.
+                                para identificar lugares especiales para usted.
                             </p>
                         </div>
                         <div className="infoType">
                             <img className="textIcon" src="/icons/connections.png" alt="" />
                             <p>
-                                <b>Accesibilidad:</b> Use {" "}<img
+                                <b>Conexiones:</b> Use {" "}<img
                                     className="inTextIcon"
                                     src="/icons/tool_add_connections.png"
                                     alt=""
                                 />{" "}
-                                para identificar formas de hacer que Medford sea más equitativo.
+                                para identificar posibles conexiones hacia y desde Rail Trail.
                             </p>
                         </div>
                         <div className="infoType">
                             <img className="textIcon" src="/icons/general_ideas.png" alt="" />
                             <p>
-                                <b>Vibrancia:</b> Use {" "}
+                                <b>Ideas generales:</b> Use {" "}
                                 <img
                                     className="inTextIcon"
                                     src="/icons/tool_add_general_ideas.png"
                                     alt=""
                                 />{" "}
-                                para identificar formas de hacer que Medford sea más vibrante.
+                                
+                                identificar ideas generales para mejorar Rail Trail.
                             </p>
                         </div>
                         
                         <div className="infoType">
                             <img className="textIcon" src="/icons/potential_issues.png" alt="" />
                             <p>
-                                <b>Comunidad:</b> Use {" "}
+                                <b>Problemas potenciales:</b> Use {" "}
                                 <img
                                     className="inTextIcon"
                                     src="/icons/tool_add_potential_issues.png"
                                     alt=""
                                 />{" "}
-                                para identificar formas de apoyar a la comunidad de Medford.
+                                para identificar problemas potenciales con el plan Rail Trail actual.
                             </p>
                         </div>
                         
@@ -123,7 +126,7 @@ function Sidepanel(props) {
                         Al hacer clic en "Publicar"("Post"), su icono y el comentario se agregarán al mapa. Puede cambiar sus comentarios hasta que cierre el mapa. Sea respetuoso, ya que todos pueden ver los comentarios que comparte.
                         </p>
                         <p>
-                        ¡Lo más importante es que comparta este mapa con familiares y amigos que se preocupan por Medford!
+                        ¡Lo más importante es que comparta este mapa con familiares y amigos que se preocupan por Shenandoah Rail Trail!
                         </p>
                         <p>
                             <i>Si el mapa es difícil de usar o incompatible con su lector de pantalla, deje un mensaje en <a href="tel:781-393-2480">781-393-2480</a> y un miembro de nuestro equipo de planificación se comunicará con usted.</i>
@@ -280,24 +283,24 @@ function Sidepanel(props) {
                         <i>traducción a través de Google Translate</i>
                         </p>
                         <p>
-                        Medford Comprehensive Plan es un plan impulsado por la comunidad para la ciudad de Medford. Invitamos a todos los miembros de la comunidad a que nos ayuden a comprender los recursos, los desafíos, las oportunidades y las cualidades únicas actuales de Medford, a fin de moldear mejor su futuro.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                         </p>
                         <p>
-                        Medford es una comunidad de residentes, trabajadores, dueños de negocios, estudiantes y visitantes. Como esfuerzo de colaboración, el plan Medford reflejará nuestras historias, culturas, valores y objetivos compartidos; en otras palabras, nuestras esperanzas y sueños para Medford.
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                         </p>
                         <p>
-                        Al agregar sus propias historias, ideas, inquietudes y lugares únicos al mapa, puede participar en la configuración de este plan para el futuro de Medford.
+                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
                         </p>
                         <p>
-                        Más información sobre el Medford Comprehensive Plan está disponible en: {" "}
+                        Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit: {" "}
                         </p>
                         <p>
                             <b>
                                 <a
                                     target="_blank"
-                                    href="https://www.medfordcompplan.org/"
+                                    href="https://shenandoahalliance.org/project/shenandoah-rail-trail-partnership/"
                                 >
-                                    www.medfordcompplan.org 
+                                    www.shenandoahalliance.org 
                                 </a>
                             </b>
                         </p>
@@ -315,24 +318,24 @@ function Sidepanel(props) {
                         <p>
                         </p>
                         <p>
-                        The Medford Comprehensive Plan is a community-driven plan for the City of Medford. We invite all members of the community to help us understand Medford’s present resources, challenges, opportunities, and unique qualities—in order to better shape its future.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                         </p>
                         <p>
-                        Medford is a community of residents, workers, business owners, students, and visitors. As a collaborative effort, the Medford plan will reflect our shared histories, cultures, values, and goals—in other words, our hopes and dreams for Medford.
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                         </p>
                         <p>
-                        By adding your own stories, ideas, concerns, and unique places to the Map, you can participate in shaping this plan for Medford’s future.
+                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
                         </p>                
                         <p>
-                        More information about the Medford Comprehensive Plan is available at: {" "}
+                        Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit: {" "}
                         </p>
                         <p>
                             <b>
                                 <a
                                     target="_blank"
-                                    href="https://www.medfordcompplan.org/"
+                                    href="https://shenandoahalliance.org/project/shenandoah-rail-trail-partnership/"
                                 >
-                                    www.medfordcompplan.org
+                                    www.shenandoahalliance.org
                                 </a>
                             </b>
                         </p>
