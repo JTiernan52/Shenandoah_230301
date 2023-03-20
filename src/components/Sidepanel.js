@@ -67,35 +67,35 @@ function Sidepanel(props) {
 
 
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/climate.png" alt="" />
+                        <img className="textIcon" src="/icons/special_places.png" alt="" />
                             <p>
                                 <b>Clima:</b> Usa el{" "}
                                 <img
                                     className="inTextIcon climate"
-                                    src="/icons/tool_add_climate.png"
+                                    src="/icons/tool_add_special_places.png"
                                     alt=""
                                 />{" "}
                                 para proponer ideas sobre el clima local.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/equity.png" alt="" />
+                            <img className="textIcon" src="/icons/connections.png" alt="" />
                             <p>
                                 <b>Accesibilidad:</b> Use {" "}<img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_equity.png"
+                                    src="/icons/tool_add_connections.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de hacer que Medford sea más equitativo.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/vibrancy.png" alt="" />
+                            <img className="textIcon" src="/icons/general_ideas.png" alt="" />
                             <p>
                                 <b>Vibrancia:</b> Use {" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_vibrancy.png"
+                                    src="/icons/tool_add_general_ideas.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de hacer que Medford sea más vibrante.
@@ -103,12 +103,12 @@ function Sidepanel(props) {
                         </div>
                         
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/community.png" alt="" />
+                            <img className="textIcon" src="/icons/potential_issues.png" alt="" />
                             <p>
                                 <b>Comunidad:</b> Use {" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_community.png"
+                                    src="/icons/tool_add_potential_issues.png"
                                     alt=""
                                 />{" "}
                                 para identificar formas de apoyar a la comunidad de Medford.
@@ -161,61 +161,61 @@ function Sidepanel(props) {
                         </p>
                         <p>
                         </p>
-                        <h4>Welcome to the second community map for the Medford Comprehensive Plan!</h4>
+                        <h4>Welcome to the community map for the Shenandoah Rail Trail!</h4>
                         <p>
-                        After receiving your feedback from the first community map, we had a series of meetings to discuss our analysis of your comments and suggestions. We identified <b>5 key themes</b> in your feedback and now we want to hear from you again!
+                        This is a space for you to share your thoughts, ideas, and concerns surrounding the planned Shenandoah Rail Trail. We identified <b>4 key themes</b> and now we want to hear from you again!
                         </p>
                         <p>
-                        Use the map to identify places in and around Medford that are important to you. Click to pick up an icon of one of the 5 key themes related to your comment from the sidebar menu. Click again to pin your icon on the map where it belongs and share your thoughts with us.
+                        Use the map to identify places in and around the Rail Trail that are important to you. Click to pick up an icon of one of the 4 key themes related to your comment from the sidebar menu. Click again to pin your icon on the map where it belongs and share your thoughts with us.
                         </p>
 
 
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/climate.png" alt="" />
+                            <img className="textIcon" src="/icons/special_places.png" alt="" />
                             <p>
-                                <b>Climate:</b> Use the{" "}
+                                <b>Special Places:</b> Use the{" "}
                                 <img
                                     className="inTextIcon climate"
-                                    src="/icons/tool_add_climate.png"
+                                    src="/icons/tool_add_special_places.png"
                                     alt=""
                                 />{" "}
-                                to propose local climate ideas.
+                                to indentify places special to you.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/equity.png" alt="" />
+                            <img className="textIcon" src="/icons/connections.png" alt="" />
                             <p>
                                 <b>Accessibility:</b> Use the {" "}<img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_equity.png"
+                                    src="/icons/tool_add_connections.png"
                                     alt=""
                                 />{" "}
-                                to identify ways to make Medford more equitable.
+                                to identify possible connections to and from the Rail Trail.
                             </p>
                         </div>
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/vibrancy.png" alt="" />
+                            <img className="textIcon" src="/icons/general_ideas.png" alt="" />
                             <p>
                                 <b>Vibrancy:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_vibrancy.png"
+                                    src="/icons/tool_add_general_ideas.png"
                                     alt=""
                                 />{" "}
-                                to identify ways to make Medford more vibrant.
+                                to identify general ideas to improve the Rail Trail.
                             </p>
                         </div>
                         
                         <div className="infoType">
-                            <img className="textIcon" src="/icons/community.png" alt="" />
+                            <img className="textIcon" src="/icons/potential_issues.png" alt="" />
                             <p>
                                 <b>Community:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
-                                    src="/icons/tool_add_community.png"
+                                    src="/icons/tool_add_potential_issues.png"
                                     alt=""
                                 />{" "}
-                                to identify ways to support Medford's community.
+                                to identify potential issues with the current Rail Trail plan.
                             </p>
                         </div>
                         
@@ -237,7 +237,7 @@ function Sidepanel(props) {
                         When you click “Post” your icon and comment will be added to the map. You can change your comments until you close the map. Please be respectful, as everyone can see the comments you share.
                         </p>
                         <p>
-                        Most importantly, please share this map with family and friends who care about Medford!
+                        Most importantly, please share this map with family and friends who care about the Shenandoah Rail Trail!
                         </p>
                         <p>
                             <i>If the map is difficult to use or incompatible with your screen reader, please leave a message at <a href="tel:781-393-2480">781-393-2480</a>, and a member of our planning team will contact you.</i>
