@@ -78,7 +78,7 @@ function PopupComment(props) {
                                 
                                 <div className="replyReason">
                                     <label>
-                                        What's your relationship to Medford?
+                                        What's your relationship to the proposed Shenandoah Rail Trail?
                                     </label>
                                     <div className="replyChecks">
                                         <div className="checkGroup">

@@ -107,7 +107,7 @@ const Draw = () => {
                     <textarea id="commentText" cols="60" rows="5"></textarea>
 
                     <div class="popReason">
-                        <label>What's your relationship to Medford?</label>
+                        <label>What's your relationship to the proposed Shenandoah Rail Trail?</label>
                         <div class='checkGroup'>
                             <input id='popLive' type='checkbox' />
                             <label>I live here</label>
