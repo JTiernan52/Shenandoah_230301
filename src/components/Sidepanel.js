@@ -172,7 +172,7 @@ function Sidepanel(props) {
                                     src="/icons/tool_add_special_places.png"
                                     alt=""
                                 />{" "}
-                                to indentify places special to you.
+                                Use the <b>Star</b> to identify places near the trail that are special to you and others may be interested in visting.
                             </p>
                         </div>
                         <div className="infoType">
@@ -183,32 +183,32 @@ function Sidepanel(props) {
                                     src="/icons/tool_add_connections.png"
                                     alt=""
                                 />{" "}
-                                to identify possible connections to and from the Rail Trail.
+                                Use the <b>Bridge</b> to identify possible connections to and from the Rail Trail such as parking and trail head locations.
                             </p>
                         </div>
                         <div className="infoType">
                             <img className="textIcon" src="/icons/general_ideas.png" alt="" />
                             <p>
-                                <b>General Ideas:</b> Use the{" "}
+                                <b>Ideas:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
                                     src="/icons/tool_add_general_ideas.png"
                                     alt=""
                                 />{" "}
-                                to identify general ideas to improve the Rail Trail.
+                                Use the <b>Light Bulb</b> to identify general ideas for the Rail Trail.
                             </p>
                         </div>
                         
                         <div className="infoType">
                             <img className="textIcon" src="/icons/potential_issues.png" alt="" />
                             <p>
-                                <b>Potential Issues:</b> Use the{" "}
+                                <b>Special Considerations:</b> Use the{" "}
                                 <img
                                     className="inTextIcon"
                                     src="/icons/tool_add_potential_issues.png"
                                     alt=""
                                 />{" "}
-                                to identify potential issues with the current Rail Trail plan.
+                                Use the <b>Exclamation Point</b> to identify where there might be situations requiring extra attention to make sure the trail is a good neighbor.
                             </p>
                         </div>
                         

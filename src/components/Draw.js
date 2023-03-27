@@ -107,18 +107,23 @@ const Draw = () => {
                     <textarea id="commentText" cols="60" rows="5"></textarea>
 
                     <div class="popReason">
-                        <label>What's your relationship to the proposed Shenandoah Rail Trail?</label>
+                        <label><b>What's your relationship to the proposed Shenandoah Rail Trail?</b></label>
+                        <p><label>I am (or hope to be): </label></p>
                         <div class='checkGroup'>
                             <input id='popLive' type='checkbox' />
-                            <label>I live here</label>
+                            <label>An adjacent land owner</label>
                         </div>
                         <div class='checkGroup'>
                             <input id='popWork' type='checkbox' />
-                            <label>I work here</label>
+                            <label>An adjacent business owner</label>
                         </div>
                         <div class='checkGroup'>
                             <input id='popVisit' type='checkbox' />
-                            <label>I visit</label>
+                            <label>A valley visitor</label>
+                        </div>
+                        <div class='checkGroup'>
+                        <input id='popVisit' type='checkbox' />
+                        <label>A valley resident</label>
                         </div>
                     </div>
 
