@@ -63,7 +63,7 @@ function Sidepanel(props) {
                         <h4>¡Bienvenido al mapa de la comunidad de Shenandoah Rail Trail!</h4>
                         <p>
                        
-                        Este es un espacio para que comparta sus pensamientos, ideas e inquietudes sobre el Shenandoah Rail Trail planificado. ¡Identificamos <b>4 temas clave</b> y ahora queremos saber de usted nuevamente!
+                        Este es un espacio para que comparta sus pensamientos, ideas e inquietudes sobre el Shenandoah Rail Trail planificado. ¡Identificamos <b>4 temas clave</b> y ahora queremos saber de usted!
                         </p>
 
 
@@ -71,50 +71,49 @@ function Sidepanel(props) {
                         <img className="textIcon" src="/icons/special_places.png" alt="" />
                             <p>
                                 <b>
-                                Lugares especiales:</b> Usa el{" "}
+                                Lugares especiales:</b> Usa la{" "}
                                 <img
                                     className="inTextIcon climate"
                                     src="/icons/tool_add_special_places.png"
                                     alt=""
                                 />{" "}
-                                para identificar lugares especiales para usted.
+                                <b>Estrella</b> para identificar lugares cerca del sendero que sean especiales para usted y que otros puedan estar interesados ​​en visitar.
                             </p>
                         </div>
                         <div className="infoType">
                             <img className="textIcon" src="/icons/connections.png" alt="" />
                             <p>
-                                <b>Conexiones:</b> Use {" "}<img
+                                <b>Conexiones:</b> Usa el {" "}<img
                                     className="inTextIcon"
                                     src="/icons/tool_add_connections.png"
                                     alt=""
                                 />{" "}
-                                para identificar posibles conexiones hacia y desde Rail Trail.
+                                <b>Puente</b> para identificar posibles conexiones hacia y desde Rail Trail, como estacionamientos y ubicaciones de inicio de senderos..
                             </p>
                         </div>
                         <div className="infoType">
                             <img className="textIcon" src="/icons/general_ideas.png" alt="" />
                             <p>
-                                <b>Ideas generales:</b> Use {" "}
+                                <b>Ideas generales:</b> Usa la {" "}
                                 <img
                                     className="inTextIcon"
                                     src="/icons/tool_add_general_ideas.png"
                                     alt=""
                                 />{" "}
-                                
-                                identificar ideas generales para mejorar Rail Trail.
+                                Utilice la <b>Bombilla</b> para identificar ideas generales para Rail Trail.
                             </p>
                         </div>
                         
                         <div className="infoType">
                             <img className="textIcon" src="/icons/potential_issues.png" alt="" />
                             <p>
-                                <b>Problemas potenciales:</b> Use {" "}
+                                <b>Problemas potenciales:</b> Utiliza el {" "}
                                 <img
                                     className="inTextIcon"
                                     src="/icons/tool_add_potential_issues.png"
                                     alt=""
                                 />{" "}
-                                para identificar problemas potenciales con el plan Rail Trail actual.
+                                <b>Signo de Exclamación</b> para identificar dónde puede haber situaciones que requieran atención adicional para asegurarse de que el sendero sea un buen vecino.
                             </p>
                         </div>
                         
@@ -156,7 +155,7 @@ function Sidepanel(props) {
                         </p>
                         <h4>Welcome to the community map for the Shenandoah Rail Trail!</h4>
                         <p>
-                        This is a space for you to share your thoughts, ideas, and concerns surrounding the planned Shenandoah Rail Trail. We identified <b>4 key themes</b> and now we want to hear from you again!
+                        This is a space for you to share your thoughts, ideas, and concerns surrounding the planned Shenandoah Rail Trail. We identified <b>4 key themes</b> and now we want to hear from you!
                         </p>
                         <p>
                         Use the map to identify places in and around the Rail Trail that are important to you. Click to pick up an icon of one of the 4 key themes related to your comment from the sidebar menu. Click again to pin your icon on the map where it belongs and share your thoughts with us.
@@ -172,7 +171,7 @@ function Sidepanel(props) {
                                     src="/icons/tool_add_special_places.png"
                                     alt=""
                                 />{" "}
-                                Use the <b>Star</b> to identify places near the trail that are special to you and others may be interested in visting.
+                                <b>Star</b> to identify places near the trail that are special to you and others may be interested in visting.
                             </p>
                         </div>
                         <div className="infoType">
@@ -183,7 +182,7 @@ function Sidepanel(props) {
                                     src="/icons/tool_add_connections.png"
                                     alt=""
                                 />{" "}
-                                Use the <b>Bridge</b> to identify possible connections to and from the Rail Trail such as parking and trail head locations.
+                                <b>Bridge</b> to identify possible connections to and from the Rail Trail such as parking and trail head locations.
                             </p>
                         </div>
                         <div className="infoType">
@@ -195,7 +194,7 @@ function Sidepanel(props) {
                                     src="/icons/tool_add_general_ideas.png"
                                     alt=""
                                 />{" "}
-                                Use the <b>Light Bulb</b> to identify general ideas for the Rail Trail.
+                                <b>Light Bulb</b> to identify general ideas for the Rail Trail.
                             </p>
                         </div>
                         
@@ -208,7 +207,7 @@ function Sidepanel(props) {
                                     src="/icons/tool_add_potential_issues.png"
                                     alt=""
                                 />{" "}
-                                Use the <b>Exclamation Point</b> to identify where there might be situations requiring extra attention to make sure the trail is a good neighbor.
+                                <b>Exclamation Point</b> to identify where there might be situations requiring extra attention to make sure the trail is a good neighbor.
                             </p>
                         </div>
                         

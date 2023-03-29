@@ -30,7 +30,7 @@ function Leaflet(props) {
     const user = props.user;
     const admin = props.admin;
     const icons = getIcons();
-    const position = [38.702,-78.564];
+    const position = [38.806,-78.578];
     const mapStyle = { height: "100vh" };
     const [map, setMap] = useState({});
     const [points, setPoints] = useState({});
@@ -402,7 +402,7 @@ function Leaflet(props) {
                     className="sidebar-map"
                     id="leaflet-map"
                     center={position}
-                    zoom={9.5}
+                    zoom={10.5}
                     style={mapStyle}
                     maxZoom={20}
                     onlayeradd={layerAdd}
