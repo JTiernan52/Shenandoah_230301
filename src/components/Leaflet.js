@@ -402,7 +402,7 @@ function Leaflet(props) {
                     className="sidebar-map"
                     id="leaflet-map"
                     center={position}
-                    zoom={13.5}
+                    zoom={9.5}
                     style={mapStyle}
                     maxZoom={20}
                     onlayeradd={layerAdd}
@@ -422,12 +422,7 @@ function Leaflet(props) {
                                 url={Basemap}
                             />
                         </LayersControl.BaseLayer>
-                        <LayersControl.BaseLayer name="Satellite">
-                            <TileLayer
-                                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> &copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> map by <a href="https://www.landau.design">LANDAU</a> + <a href="http://interface-studio.com/">Interface Studio</a>'
-                                url={mapboxSat}
-                            />
-                        </LayersControl.BaseLayer>
+
                         
                     </LayersControl>
                     <Draw />
