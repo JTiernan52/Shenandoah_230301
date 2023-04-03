@@ -122,7 +122,7 @@ const Draw = () => {
                             <label>A valley visitor</label>
                         </div>
                         <div class='checkGroup'>
-                        <input id='popVisit' type='checkbox' />
+                        <input id='popResident' type='checkbox' />
                         <label>A valley resident</label>
                         </div>
                     </div>

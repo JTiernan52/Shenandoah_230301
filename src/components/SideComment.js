@@ -71,7 +71,8 @@ function SideComment(props) {
                     {getRelationshipText(
                         comment.live,
                         comment.work,
-                        comment.visit
+                        comment.visit,
+                        comment.resident
                     )}
                 </p>
             </div>

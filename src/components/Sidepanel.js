@@ -262,7 +262,7 @@ function Sidepanel(props) {
                         <img
                             className="Logo"
                             alt="Medford_gif"
-                            src="/icons/ShenandoahAlliance_Logo.png"
+                            src="/icons/instead of Alliance logo.jpg"
                             width="300"
                             class="center"
                         />
@@ -282,24 +282,36 @@ function Sidepanel(props) {
                         <i>traducción a través de Google Translate</i>
                         </p>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        El Shenandoah Rail Trail convertirá un corredor ferroviario de vía única no utilizado entre Broadway y Front Royal en un sendero de usos múltiples de casi 50 millas que volverá a conectar comunidades, empresas, escuelas y muchos recursos culturales e históricos locales   
                         </p>
                         <p>
-                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                        El corredor ferroviario, que alguna vez fue un centro comunitario y económico de ciudades desde Broadway hasta Front Royal, no ha visto trenes desde 1989. Las vías ahora están cubiertas de maleza y, en algunos casos, completamente inutilizables.
                         </p>
                         <p>
-                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                        Las comunidades a lo largo de la ruta están trabajando juntas para recuperar el corredor como un sendero para caminar, trotar, andar en bicicleta y más. Y ahora, necesitamos su opinión para construir el mejor sendero para nuestra región.
                         </p>
                         <p>
-                        Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit: {" "}
+                        <i>Un sendero ferroviario de Shenandoah:</i>
+                        </p>
+                        <p>
+                        <b>CONECTAR:</b> Arriba y abajo de la ruta, el sendero conecta a los estudiantes con la escuela, los empleados con el trabajo, los clientes con las tiendas, los comensales con los restaurantes y los miembros de la comunidad con los parques, ríos y sitios históricos. 
+                        </p>
+                        <p>
+                        <b>BRINDAR OPORTUNIDAD PARA TODOS:</b> En el Valle, estamos rodeados de oportunidades para disfrutar del aire libre, pero muchos de los senderos y caminos son remotos y, por la naturaleza del terreno, son adecuados para usuarios de senderos avanzados. Nuestro sendero ferroviario es plano, principalmente rural y pintoresco, y se puede acceder fácilmente desde muchos pueblos y vecindarios. Será una forma segura y fácil de salir a caminar, correr o rodar con miembros de la familia de todas las edades y habilidades. 
+                        </p>
+                        <p>
+                        <b>TRANSFORMAR:</b> La adición de un sendero a nuestros servicios locales de primer nivel atraerá a las empresas que buscan ubicarse en un lugar que ofrezca una alta calidad de vida a las personas que emplean. Esto significa el potencial de nuevas oportunidades de trabajo en muchos sectores. Y, los visitantes del sendero brindarán oportunidades económicas para el espíritu empresarial y para que las comunidades disfruten de negocios locales prósperos en las ciudades.
+                        </p>
+                        <p>
+                        Para más información, por favor visítenos en: {" "}
                         </p>
                         <p>
                             <b>
                                 <a
                                     target="_blank"
-                                    href="https://shenandoahalliance.org/project/shenandoah-rail-trail-partnership/"
+                                    href="shenandoahrailtrail.org"
                                 >
-                                    www.shenandoahalliance.org 
+                                    www.shenandoahrailtrail.org 
                                 </a>
                             </b>
                         </p>
@@ -317,24 +329,36 @@ function Sidepanel(props) {
                         <p>
                         </p>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        The Shenandoah Rail Trail will convert an unused single-track railroad corridor between Broadway and Front Royal into a multi-use, almost 50-mile trail reconnecting communities, businesses, schools and many local cultural and historical resources.
                         </p>
                         <p>
-                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                        The rail corridor, once a community and economic hub of towns from Broadway to Front Royal, has not seen trains as far back as 1989. The tracks are now overgrown and, in some cases, completely unusable. 
                         </p>
                         <p>
-                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                        Communities along the route are working together to reclaim the corridor as a trail for walking, jogging, cycling and more. And now, we need your input to build the best trail for our region. 
                         </p>                
                         <p>
-                        Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit: {" "}
+                        <i>A Shenandoah Rail Trail will:</i>
+                        </p>
+                        <p>
+                        <b>CONNECT:</b> Up and down the route, the trail connects students to school, employees to work, customers to shops, diners to restaurants and community members to parks, rivers and historic sites. 
+                        </p>
+                        <p>
+                        <b>PROVIDE OPPORTUNITY FOR EVERYONE:</b> In the Valley, we are surrounded by opportunities to enjoy the outdoors, but many of the trails and paths are remote and, by the nature of the terrain, suited for advanced trail users. Our rail trail is flat, primarily rural and scenic, and easily accessed from many towns and neighborhoods. It will be a safe and easy way to get outside to walk, run or roll with family members of all ages and abilities. 
+                        </p>
+                        <p>
+                        <b>TRANSFORM:</b> The addition of a trail to our first-rate local amenities will attract companies that seek to locate in a place that offers a high quality of life to the folks they employ. This means the potential for new job opportunities across many sectors. And, visitors to the trail will provide economic opportunities for entrepreneurship and for communities to enjoy thriving local businesses in towns.
+                        </p>
+                        <p>
+                        For more information, please visit us at: {" "}
                         </p>
                         <p>
                             <b>
                                 <a
                                     target="_blank"
-                                    href="https://shenandoahalliance.org/project/shenandoah-rail-trail-partnership/"
+                                    href="shenandoahrailtrail.org"
                                 >
-                                    www.shenandoahalliance.org
+                                    www.shenandoahrailtrail.org
                                 </a>
                             </b>
                         </p>

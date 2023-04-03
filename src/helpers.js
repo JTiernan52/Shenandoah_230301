@@ -116,6 +116,7 @@ function generateSampleData() {
         let live = flip[Math.floor(Math.random() * flip.length)];
         let work = flip[Math.floor(Math.random() * flip.length)];
         let visit = flip[Math.floor(Math.random() * flip.length)];
+        let resident = flip[Math.floor(Math.random() * flip.length)];
 
         comments[uid] = {
             comment: text,
@@ -125,6 +126,7 @@ function generateSampleData() {
             live: live,
             work: work,
             visit: visit,
+            resident: resident,
             hidden: false,
             upvote: 0,
             featured: featured,
@@ -141,6 +143,7 @@ function generateSampleData() {
                     live: flip[Math.floor(Math.random() * flip.length)],
                     work: flip[Math.floor(Math.random() * flip.length)],
                     visit: flip[Math.floor(Math.random() * flip.length)],
+                    resident: flip[Math.floor(Math.random() * flip.length)],
                     hidden: false,
                     upvote: -5,
                 },
@@ -153,6 +156,7 @@ function generateSampleData() {
                     live: flip[Math.floor(Math.random() * flip.length)],
                     work: flip[Math.floor(Math.random() * flip.length)],
                     visit: flip[Math.floor(Math.random() * flip.length)],
+                    resident: flip[Math.floor(Math.random() * flip.length)],
                     hidden: false,
                     upvote: 15,
                 },
@@ -176,24 +180,40 @@ function getIcons() {
 
 export { getIcons };
 
-function getRelationshipText(live, work, visit) {
+function getRelationshipText(live, work, visit, resident) {
     let shipText = "";
-    if (live && work && visit) {
-        shipText = "Lives in, works in, visits Medford";
-    } else if (live && work && !visit) {
-        shipText = "Lives and works in Medford";
-    } else if (live && !work && visit) {
-        shipText = "Lives in and visits Medford";
-    } else if (!live && work && visit) {
-        shipText = "Works in and visits Medford";
+    if (live && work && visit && resident) {
+        shipText = "Lives in and vists the valley, and is an adjacent landowner and business owner. ";
+    } else if (live && work && !visit && !resident) {
+        shipText = "Adjacent land and business owner.";
+    } else if (live && !work && !visit && resident) {
+        shipText = "Adjacent landowner and lives in the valley";
+    } else if (live && !work && visit && !resident) {
+        shipText = "Adjacent landowner and visits the valley";
+    } else if (!live && work && visit && !resident) {
+        shipText = "Adjacent business owner and visits the valley";
+    } else if (!live && work && !visit && resident) {
+        shipText = "Adjacent business owner and lives in the valley";
+    } else if (!live && !work && visit && resident) {
+        shipText = "Lives in and visits the valley";
+    } else if (!live && work && visit && resident) {
+        shipText = "Adjacent business owner, visits and lives in the valley";
+    } else if (live && !work && visit && resident) {
+        shipText = "Adjacent landowner, visits and lives in the valley";
+    } else if (live && work && !visit && resident) {
+        shipText = "Adjacent landowner and business owner,lives in the valley";
+    } else if (live && work && visit && !resident) {
+        shipText = "Adjacent landowner and business owner,visits the valley";
     } else if (live) {
-        shipText = "Lives in Medford";
+        shipText = "Adjacent landowner";
     } else if (work) {
-        shipText = "Works in Medford";
+        shipText = "Adjacent business owner";
     } else if (visit) {
-        shipText = "Visits Medford";
-    }
+        shipText = "Valley visitor";
+    } else if (resident) {
+        shipText = "Valley resident";
     return shipText;
+    }
 }
 
 export { getRelationshipText };

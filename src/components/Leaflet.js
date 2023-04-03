@@ -167,6 +167,7 @@ function Leaflet(props) {
         const live = document.getElementById("popLive").checked;
         const work = document.getElementById("popWork").checked;
         const visit = document.getElementById("popVisit").checked;
+        const resident = document.getElementById("popResident").checked;
         const email = document.getElementById("commentEmail").value;
 
         layer.properties = {};
@@ -177,6 +178,7 @@ function Leaflet(props) {
         layer.properties.name = name;
         layer.properties.email = email;
         /*layer.properties.neighboorhood = neighboorhood;*/
+        layer.properties.resident = resident;
         layer.properties.work = work;
         layer.properties.visit = visit;
         layer.properties.live = live;
@@ -185,7 +187,7 @@ function Leaflet(props) {
 
         map.leafletElement.closePopup();
 
-        let shipText = getRelationshipText(live, work, visit);
+        let shipText = getRelationshipText(live, work, visit, resident);
 
         const popup = L.popup()
             .setLatLng(layer.getLatLng())
