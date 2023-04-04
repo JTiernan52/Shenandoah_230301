@@ -405,6 +405,114 @@ function Sidepanel(props) {
                         </Fragment>
                     ))}
             </Tab>
+
+            <Tab
+                id="legend"
+                header="Legend"
+                icon={
+                    selected !== "legend" ? (
+                        <img className="legend" alt="" src="/icons/Legend.png" />
+                    ) : (
+                        <img
+                            className="legend"
+                            alt=""
+                            src="/icons/Legend.png"
+                        />
+                    )
+                }
+                active
+            >
+                {language === 'Spanish' ? 
+                    <div>
+                        <p>
+                        </p>
+                        <button
+                            className="spanish button--primary"
+                            onClick={() => setLanguage("English")}
+                        >
+                            in English
+                        </button>
+                        <p>
+                        <i>traducción a través de Google Translate</i>
+                        </p>
+                        
+
+
+                        <div className="legendContainer">
+                        <img  className="legendImage" src="/icons/Legend - Rail Trail.png" alt="" /> = vía férrea
+                        </div>
+                        
+                        <div className="legendContainer">
+                            <img className="legendImage" src="/icons/Legend - National Trails.png" alt="" />
+                             <p>= senderos en terrenos estatales y federales</p>
+                        </div>
+
+                        <div className="legendContainer">
+                            <img className="legendImage" src="/icons/Legend - Rivers and Streams.png" alt="" />
+                            <p>= Rios y corrientes</p>
+                        </div>
+                        
+                        <div className="legendContainer">
+                            <img className="legendImage" src="/icons/Legend - Towns.png" alt="" />
+                            <p>= Pueblos</p>
+                        </div>
+
+                        <div className="legendContainer">
+                            <img className="legendImage" src="/icons/Legend - Trail Heads.png" alt="" />
+                            <p>= Cabezas de sendero</p>
+                        </div>
+                        
+
+
+                        
+                        
+                    </div>
+                    :
+                    <div>
+                         <p>
+                        <button
+                            className="spanish button--primary"
+                            onClick={() => setLanguage("Spanish")}
+                        >
+                            en Español
+                        </button>
+                        </p>
+                        <p>
+
+
+
+                        <div className="legendContainer">
+                        <img className="legendImage" src="/icons/Legend - Rail Trail.png" alt="" />  
+                        <p> = Rail Trail</p>
+                        </div>
+                        
+                        <div className="legendContainer">
+                            <img className="legendImage" src="/icons/Legend - National Trails.png" alt="" />
+                            <p> = Trails on State and Federal Land</p>
+                        </div>
+
+                        <div className="legendContainer">
+                            <img className="legendImage" src="/icons/Legend - Rivers and Streams.png" alt="" />
+                            <p> = Rivers and Streams</p>
+                        </div>
+                        
+                        <div className="legendContainer">
+                            <img className="legendImage" src="/icons/Legend - Towns.png" alt="" /> 
+                            <p> = Towns</p>
+                        </div>
+
+                        <div className="legendContainer">
+                            <img className="legendImage" src="/icons/Legend - Trail Heads.png" alt="" />
+                            <p> = Trail Heads</p>
+                        </div>
+                        </p>
+
+                
+               
+                </div>
+                }
+                
+            </Tab>
         </Sidebar>
     );
 }

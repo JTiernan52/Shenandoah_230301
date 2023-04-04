@@ -256,6 +256,7 @@ function Leaflet(props) {
             work: work,
             live: live,
             visit: visit,
+            resident: resident,
             submittedOn: new Date().toISOString(),
             upvote: 0,
             type: iconType,
@@ -359,6 +360,7 @@ function Leaflet(props) {
         const live = document.getElementById("replyLive").checked;
         const work = document.getElementById("replyWork").checked;
         const visit = document.getElementById("replyVisit").checked;
+        const resident = document.getElementById("replyResident").checked;
 
         const newReply = {
             comment: comment,
@@ -367,6 +369,7 @@ function Leaflet(props) {
             live: live,
             work: work,
             visit: visit,
+            resident: resident,
             hidden: false,
             upvote: 0,
         };

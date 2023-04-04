@@ -116,6 +116,11 @@
     width: 40px;
 }
 
+#sidebar .legend {
+    height: 20px;
+    width: 20px;
+}
+
 #sidebar .sidebar-tabs li.active {
     background-color: #E0F2F2;
 }
@@ -161,6 +166,21 @@ div.infoType {
     display: flex;
     flex-direction: row;
 }
+
+.legendContainer{
+    display:flex;
+    align-items:center;
+    justify-content:left;   
+}
+
+.legendImage{
+    max-width: 25%;
+}
+
+.legendImages{
+    flex-basis:40%;
+}
+
 
 div.infoType img.textIcon {
     display: flex;
