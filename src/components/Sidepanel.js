@@ -439,28 +439,10 @@ function Sidepanel(props) {
 
 
                         <div className="legendContainer">
-                        <img  className="legendImage" src="/icons/Legend - Rail Trail.png" alt="" /> = vía férrea
+                        <img  className="legendImage" src="/icons/WebMapLegend_spanish.png" alt="" />
                         </div>
                         
-                        <div className="legendContainer">
-                            <img className="legendImage" src="/icons/Legend - National Trails.png" alt="" />
-                             <p>= senderos en terrenos estatales y federales</p>
-                        </div>
 
-                        <div className="legendContainer">
-                            <img className="legendImage" src="/icons/Legend - Rivers and Streams.png" alt="" />
-                            <p>= Rios y corrientes</p>
-                        </div>
-                        
-                        <div className="legendContainer">
-                            <img className="legendImage" src="/icons/Legend - Towns.png" alt="" />
-                            <p>= Pueblos</p>
-                        </div>
-
-                        <div className="legendContainer">
-                            <img className="legendImage" src="/icons/Legend - Trail Heads.png" alt="" />
-                            <p>= Cabezas de sendero</p>
-                        </div>
                         
 
 
@@ -482,29 +464,9 @@ function Sidepanel(props) {
 
 
                         <div className="legendContainer">
-                        <img className="legendImage" src="/icons/Legend - Rail Trail.png" alt="" />  
-                        <p> = Rail Trail</p>
-                        </div>
-                        
-                        <div className="legendContainer">
-                            <img className="legendImage" src="/icons/Legend - National Trails.png" alt="" />
-                            <p> = Trails on State and Federal Land</p>
+                        <img className="legendImage" src="/icons/WebMapLegend.png" alt="" />  
                         </div>
 
-                        <div className="legendContainer">
-                            <img className="legendImage" src="/icons/Legend - Rivers and Streams.png" alt="" />
-                            <p> = Rivers and Streams</p>
-                        </div>
-                        
-                        <div className="legendContainer">
-                            <img className="legendImage" src="/icons/Legend - Towns.png" alt="" /> 
-                            <p> = Towns</p>
-                        </div>
-
-                        <div className="legendContainer">
-                            <img className="legendImage" src="/icons/Legend - Trail Heads.png" alt="" />
-                            <p> = Trail Heads</p>
-                        </div>
                         </p>
 
                 
