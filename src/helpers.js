@@ -201,9 +201,9 @@ function getRelationshipText(live, work, visit, resident) {
     } else if (live && !work && visit && resident) {
         shipText = "Adjacent landowner, visits and lives in the valley";
     } else if (live && work && !visit && resident) {
-        shipText = "Adjacent landowner and business owner,lives in the valley";
+        shipText = "Adjacent landowner and business owner, lives in the valley";
     } else if (live && work && visit && !resident) {
-        shipText = "Adjacent landowner and business owner,visits the valley";
+        shipText = "Adjacent landowner and business owner, visits the valley";
     } else if (live) {
         shipText = "Adjacent landowner";
     } else if (work) {
@@ -212,8 +212,8 @@ function getRelationshipText(live, work, visit, resident) {
         shipText = "Valley visitor";
     } else if (resident) {
         shipText = "Valley resident";
-    return shipText;
     }
+    return shipText;
 }
 
 export { getRelationshipText };

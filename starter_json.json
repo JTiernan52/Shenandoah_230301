@@ -9,10 +9,11 @@
       "live" : false,
       "neighboorhood" : "Choose One...",
       "submittedOn" : "2020-09-21T19:51:44.750Z",
-      "type" : "idea",
+      "type" : "general_ideas",
       "upvote" : 0,
       "visit" : false,
-      "work" : true
+      "work" : true,
+      "resident" : true
 	  }
     
   },
@@ -21,7 +22,7 @@
       "hidden" : true,
       "lat" : -81.64956559191108,
       "lng" : 41.5022698979042,
-      "type" : "idea"
+      "type" : "general_ideas"
     }
   },
   "replies" : {
@@ -35,8 +36,9 @@
         "submittedOn" : "2020-08-10T00:43:32.429Z",
         "upvote" : 0,
         "visit" : true,
-        "work" : false
-      }
+        "work" : false,
+        "resident" : false
+              }
     }
   }
 }

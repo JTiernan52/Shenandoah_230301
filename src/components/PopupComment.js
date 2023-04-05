@@ -45,7 +45,7 @@ function PopupComment(props) {
                 {moment(comment.submittedOn).fromNow()}
             </p>
             <p className="commentAbout">
-                {getRelationshipText(comment.live, comment.work, comment.visit)}
+                {getRelationshipText(comment.live, comment.work, comment.visit, comment.resident)}
             </p>
 
             <div className="postedReplies">
@@ -101,6 +101,13 @@ function PopupComment(props) {
                                                 type="checkbox"
                                             />
                                             <label>Visit</label>
+                                        </div>
+                                        <div className="checkGroup">
+                                            <input
+                                                id="replyResident"
+                                                type="checkbox"
+                                            />
+                                            <label>Resident</label>
                                         </div>
                                     </div>
                                 </div>
