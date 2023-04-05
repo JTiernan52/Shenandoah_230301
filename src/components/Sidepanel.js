@@ -128,7 +128,7 @@ function Sidepanel(props) {
                         ¡Lo más importante es que comparta este mapa con familiares y amigos que se preocupan por Shenandoah Rail Trail!
                         </p>
                         <p>
-                            <i>Si el mapa es difícil de usar o incompatible con su lector de pantalla, deje un mensaje en <a href="tel:781-393-2480">781-393-2480</a> y un miembro de nuestro equipo de planificación se comunicará con usted.</i>
+                            <i>Si el mapa es difícil de usar o incompatible con su lector de pantalla, deje un mensaje en <a href="tel:###-###-####">###-###-####</a> y un miembro de nuestro equipo de planificación se comunicará con usted.</i>
                         </p>
                         <p>
                         <button
@@ -222,7 +222,7 @@ function Sidepanel(props) {
                         Most importantly, please share this map with family and friends who care about the Shenandoah Rail Trail!
                         </p>
                         <p>
-                            <i>If the map is difficult to use or incompatible with your screen reader, please leave a message at <a href="tel:781-393-2480">781-393-2480</a>, and a member of our planning team will contact you.</i>
+                            <i>If the map is difficult to use or incompatible with your screen reader, please leave a message at <a href="tel:###-###-####">###-###-####</a>, and a member of our planning team will contact you.</i>
                         </p>
                 <p>
                 <button
@@ -309,7 +309,7 @@ function Sidepanel(props) {
                             <b>
                                 <a
                                     target="_blank"
-                                    href="shenandoahrailtrail.org"
+                                    href="www.shenandoahrailtrail.org"
                                 >
                                     www.shenandoahrailtrail.org 
                                 </a>
@@ -356,7 +356,7 @@ function Sidepanel(props) {
                             <b>
                                 <a
                                     target="_blank"
-                                    href="shenandoahrailtrail.org"
+                                    href="www.shenandoahrailtrail.org"
                                 >
                                     www.shenandoahrailtrail.org
                                 </a>
