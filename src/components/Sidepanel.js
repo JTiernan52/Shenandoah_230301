@@ -128,7 +128,7 @@ function Sidepanel(props) {
                         ¡Lo más importante es que comparta este mapa con familiares y amigos que se preocupan por Shenandoah Rail Trail!
                         </p>
                         <p>
-                            <i>Si el mapa es difícil de usar o incompatible con su lector de pantalla, deje un mensaje en <a href="tel:###-###-####">###-###-####</a> y un miembro de nuestro equipo de planificación se comunicará con usted.</i>
+                            <i>Si el mapa es difícil de usar o incompatible con su lector de pantalla, deje un mensaje en <a href="tel:(540)-908-3914">540-908-3914</a> y un miembro de nuestro equipo de planificación se comunicará con usted.</i>
                         </p>
                         <p>
                         <button
@@ -215,14 +215,23 @@ function Sidepanel(props) {
                         <p>
                         Each time you place a pin, add a comment to share what you are thinking. You can add as many pins as you want.
                         </p>
+                        
                         <p>
-                        When you click “Post” your icon and comment will be added to the map. You can change your comments until you close the map. Please be respectful, as everyone can see the comments you share.
+                        When you click “Post” your icon and comment will be added to the map. You can move                                 <img
+                                    className="inTextIcon"
+                                    src="/icons/tool_edit.png"
+                                    alt=""
+                                />{" "} and/or delete <img
+                                className="inTextIcon"
+                                src="/icons/tool_delete.png"
+                                alt=""
+                            />{" "} your comments until you close the map. Please be respectful, as everyone can see the comments you share.
                         </p>
                         <p>
                         Most importantly, please share this map with family and friends who care about the Shenandoah Rail Trail!
                         </p>
                         <p>
-                            <i>If the map is difficult to use or incompatible with your screen reader, please leave a message at <a href="tel:###-###-####">###-###-####</a>, and a member of our planning team will contact you.</i>
+                            <i>If the map is difficult to use or incompatible with your screen reader, please leave a message at <a href="tel:(540)-908-3914">540-908-3914</a>, and a member of our planning team will contact you.</i>
                         </p>
                 <p>
                 <button
